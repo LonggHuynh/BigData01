@@ -1,0 +1,10 @@
+version: '3'
+services:
+  daas:
+    build: .
+    container_name: dataingest-daas
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./:/home/app
+    
