@@ -7,8 +7,11 @@ const port = 5000
 const app = express()
 const host = argv['host'] ||'138.197.184.163'
 
+
+
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = `mongodb://${host}:27000/amazon_reviews?retryWrites=true&w=majority`;
+
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 const { insert_reviews } = require('./mysimbdp-dataingest')

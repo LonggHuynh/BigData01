@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node mysimbdp-daas.js",
-    "dev": "nodemon amysimbdp-daas.js"
+    "start": "node mysimbdp-daas.js"
   },
   "author": "",
   "license": "ISC",

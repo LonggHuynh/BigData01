@@ -13,7 +13,7 @@ const host = argv['host'] || 'mongodb://138.197.184.163'
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = `${host}:27000/amazon_reviews?retryWrites=true&w=${write_concern}`;
-const file_path = '../data/amazon_reviews_us_Software_v1_00.tsv'
+const file_path = '../data/data.tsv'
 
 
 
